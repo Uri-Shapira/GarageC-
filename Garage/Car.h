@@ -8,9 +8,8 @@ using namespace std;
 
 class Car : public Vehicle
 {
-
 	private:
-
+		void createCar();
 	public:
 		void setWheels();
 		Car();

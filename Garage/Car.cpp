@@ -9,8 +9,13 @@ void Car::setWheels()
 	m_wheels = wheels;
 }
 
-Car::Car() 
+void Car::createCar()
 {
 	setWheels();
 	m_name = "Regular Car";
+}
+
+Car::Car() 
+{
+	createCar();
 }
